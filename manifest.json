@@ -1,0 +1,18 @@
+{
+    "name": "Redux State Clear",
+    "version": "1.0",
+    "description": "Deletes redux's state in localstorag",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_title": "Make this page red"
+    }
+}
